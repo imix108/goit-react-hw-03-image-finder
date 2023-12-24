@@ -22,7 +22,7 @@ export class ImageGallery extends Component {
   render() {
     const data  = this.props.data;
     return (
-    <ul className={css.ImageGallery}>
+    <ul className={css.imageGallery}>
         {data?.map(dataElem => {
         return (
           <ImageGalleryItem key={dataElem.id} id={dataElem.id} webImg={dataElem.webformatURL} handleModal={this.handleModal}></ImageGalleryItem>

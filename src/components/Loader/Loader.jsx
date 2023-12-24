@@ -3,7 +3,7 @@ import css from "./Loader.module.css"
 
 export const Loader = () => {
   return (
-    <div className={css.LoaderWrapper}><ThreeDots
+    <div className={css.loaderWrapper}><ThreeDots
    visible={true}
   height="80"
   width="80"
